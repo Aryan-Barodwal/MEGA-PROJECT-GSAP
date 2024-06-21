@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  overflow-x: hidden;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+  display: hidden;
+
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #6d6c6c;
+  border-radius: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #222;
+
+}
+
+#main {
+  width: 100vw;
+  height: 100vh;
+  background: url("../src/assets/4m.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: auto;
+}
+
+#cursor {
+  width: 12px;
+  height: 12px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  border-radius: 50%;
+
+}
